@@ -1,6 +1,12 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background: #eee;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+img{
+    margin-top: 20px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 .wrapper {
@@ -18,7 +24,7 @@ body {
     margin: 1.5%;
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
     text-align: center;
-    border-radius: 2rem;
+    border-radius: 1rem;
     transition: 0.9s;
 }
 
@@ -27,13 +33,10 @@ body {
     height: 120px;
     border-radius: 50%;
     border: 2px solid #5243DE;
-    margin: 5% auto 0 auto;
+    margin: 1% auto 0 auto;
     text-align: center;
 }
 
-.deals {
-    margin-top: 10%;
-}
 
 .single-price h1 {
     font-size: 18px;
@@ -82,7 +85,6 @@ body {
     padding: 10px 60px;
     display: inline-block;
     margin: 10% auto;
-    text-transform: uppercase;
     font-weight: bold;
     border-radius: 1rem;
 }
@@ -90,6 +92,22 @@ body {
 .single-price:hover button {
     background: #262626;
     color: #fff;
+}
+.container-img{
+    position: relative;
+    height: 100px;
+}
+.pre1{
+    position: absolute;
+    left: 4em;
+}
+.pre2{
+    position: absolute;
+    left: 7em
+}
+.pre3{
+    position: absolute;
+    left: 10em;
 }
 
 .modalContainer {
